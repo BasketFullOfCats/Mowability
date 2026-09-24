@@ -13,8 +13,8 @@ not account for previous rain or the weighting of each day(1st previous day more
 **Frontend uses Javascript**  
 -Basic user interface that requires no login since it was made **locally**, so only I would be using it  
 -**Day cards** to hold all the **objects** we get when we use **weatherAPI**. Basically each object will contain that weather's day, which then we use to calculate/display  
--Also made a real time autofill, basically we select the top 10 results that matches the users input **only** after a 300ms delay so we dont constantly keep sending fetch requests, allows us
-to limit api usage and stop the website from blocking us, potentially thinking were a bot  
+-Also made a real time autofill, basically we select the **top 10** results that matches the users input **only** after a **300ms delay** so we don't constantly keep sending fetch requests, allows us
+to **limit api usage** and stop the website from blocking us, potentially thinking were a bot  
 -Made some QoL changes as well, mainly using ref to refocus onto the input box when user hits enter to submit. 
 
 Inspiration: Helping out at my parents restaurant 6 days a week and the day off is just to mow the lawn. With the long hours, and working in a different city than home, it is hard to keep track and find the most optimal day to mow the lawn. Also wanted to build a full stack using react.
